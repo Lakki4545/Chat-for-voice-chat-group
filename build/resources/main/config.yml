@@ -1,9 +1,12 @@
 # hi
-# can use with kyori MiniMessage
+#use with kyori MiniMessage and PlaceHolderAPI
 
+#Placeholders:
+#{player} - sender
+#{pluginprefix} - is prefix
+#{message} - message in /gc
+#{groupName} - name of group
 
 prefix: "[<aqua>GroupChat<white>] <gray>"
-
-# TODO message style
 
 message-style: "{pluginprefix}{player}: {message}"
